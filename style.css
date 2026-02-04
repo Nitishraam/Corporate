@@ -2196,4 +2196,13 @@ body {
     .elite-footer {
         padding: 3.5rem 0 2rem;
     }
+    .block-title::after{
+        left: 335px;
+    }
+}
+@media (max-width: 350px) {
+      .block-title::after{
+        left: 110px;
+    }
+
 }
