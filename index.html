@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stackly</title>
+    <link rel="stylesheet" href="./style.css">
+       <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body>
+    <div id="loader">
+  <span class="loader"></span>
+</div>
+
+<div id="main-cont">
+    
+      <nav class="navbar">
+        <div class="nav-container">
+           <a href="./index.html" class="logo">
+            <img class="logo2" src="./Images/logo.png" alt="RedPeak Logo"/>
+        </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a style="   background: linear-gradient(135deg, #00d4ff 0%, #5b86e5 50%, #a100ff 100%);
+   
+    -webkit-text-fill-color: transparent;
+    background-clip: text;" href="./index.html" class="nav-link">Home</a></li>
+                <li><a href="./Pages/error.html" class="nav-link">About</a></li>
+                <li><a href="./Pages/error.html" class="nav-link">Services</a></li>
+                <li><a href="./Pages/error.html" class="nav-link">Blog</a></li>
+                <li><a href="./Pages/error.html" class="nav-link">Contact</a></li>
+                <li><a href="./Pages/error.html" class="nav-link signin-btn">Sign In</a></li>
+            </ul>
+
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+   <section class="hero-alt">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay">
+        <div class="hero-grid">
+            <!-- Left Content (unchanged) -->
+            <div class="hero-left">
+                <div class="badge-wrapper">
+                    <span class="badge">⭐ #1 Rated Solution</span>
+                </div>
+                <h1 class="hero-h1">
+                    <span>Scale Your Business</span>
+                    <span class="gradient-text">10x Faster</span>
+                </h1>
+                <p class="hero-desc">
+                    Enterprise-grade tools that deliver real results. Join 25K+ companies 
+                    transforming their operations with our proven platform.
+                </p>
+                <div class="hero-buttons">
+                    <a href="./Pages/error.html" class="btn-main">Get Started Now</a>
+                    <a href="./Pages/error.html" class="btn-outline">See Pricing</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-num">25K+</span>
+                        <span>Companies</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">98%</span>
+                        <span>Success Rate</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Static Image -->
+            <div class="hero-right">
+                <img src="./Images/h3.webp" 
+                     alt="Enterprise Dashboard Interface" 
+                     class="hero-image"
+                     loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <section class="solutions-section" data-aos="fade-up">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <span class="section-badge" data-aos="fade-up" data-aos-delay="200">Corporate Excellence</span>
+                <h2 class="section-title" data-aos="fade-up" data-aos-delay="400">Enterprise Solutions</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="600">Comprehensive business platforms designed for scale, security, and growth</p>
+            </div>
+
+            <!-- Solutions Grid -->
+            <div class="solutions-grid">
+                <div class="solution-card prominent" 
+                     data-aos="fade-up" 
+                     data-aos-delay="100"
+                     data-aos-duration="800">
+                    <div class="card-header">
+                        <div class="icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="#00d4ff" stroke-width="2"/>
+                                <path d="M8 12h8v4H8z" fill="#00d4ff"/>
+                            </svg>
+                        </div>
+                        <div class="status-badge">Most Popular</div>
+                    </div>
+                    <h3>Enterprise CRM</h3>
+                    <p>Complete customer relationship management with AI insights, automation, and seamless integrations across all departments.</p>
+                    <ul class="features-list">
+                        <li data-aos="fade-right" data-aos-delay="0">✓ AI-Powered Lead Scoring</li>
+                        <li data-aos="fade-right" data-aos-delay="100">✓ 500+ App Integrations</li>
+                        <li data-aos="fade-right" data-aos-delay="200">✓ Real-time Analytics</li>
+                    </ul>
+                    <div class="pricing-tag">
+                        <span class="price">From $99</span>
+                        <span class="per">/user/month</span>
+                    </div>
+                    <a href="./Pages/error.html" class="cta-button primary" data-aos="zoom-in" data-aos-delay="300">Choose Plan</a>
+                </div>
+
+                <div class="solution-card" 
+                     data-aos="fade-up" 
+                     data-aos-delay="300"
+                     data-aos-duration="800">
+                    <div class="card-header">
+                        <div class="icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M22 12h-4l-3 9H9l-3-9H2" stroke="#5b86e5" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="12" cy="5" r="3" stroke="#5b86e5" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>HR Management</h3>
+                    <p>Streamlined employee lifecycle management from onboarding to performance reviews with compliance automation.</p>
+                    <div class="pricing-tag">
+                        <span class="price">From $49</span>
+                        <span class="per">/user/month</span>
+                    </div>
+                    <a href="./Pages/error.html" class="cta-button" data-aos="zoom-in" data-aos-delay="200">Choose Plan</a>
+                </div>
+
+                <div class="solution-card" 
+                     data-aos="fade-up" 
+                     data-aos-delay="500"
+                     data-aos-duration="800">
+                    <div class="card-header">
+                        <div class="icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="#a100ff" stroke-width="2"/>
+                                <polyline points="17,8 12,13 7,8" stroke="#a100ff" stroke-width="2" fill="none"/>
+                                <line x1="12" y1="13" x2="12" y2="3" stroke="#a100ff" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Project Ops</h3>
+                    <p>Advanced project management with resource allocation, risk analysis, and executive reporting dashboards.</p>
+                    <div class="pricing-tag">
+                        <span class="price">From $29</span>
+                        <span class="per">/user/month</span>
+                    </div>
+                    <a href="./Pages/error.html" class="cta-button" data-aos="zoom-in" data-aos-delay="200">Choose Plan</a>
+                </div>
+
+                <div class="solution-card" 
+                     data-aos="fade-up" 
+                     data-aos-delay="700"
+                     data-aos-duration="800">
+                    <div class="card-header">
+                        <div class="icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#00d4ff" stroke-width="2"/>
+                                <circle cx="9" cy="7" r="4" stroke="#00d4ff" stroke-width="2"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="#00d4ff" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3>Helpdesk Pro</h3>
+                    <p>Enterprise-grade support platform with multi-channel ticketing, SLA management, and self-service portal.</p>
+                    <div class="pricing-tag">
+                        <span class="price">From $19</span>
+                        <span class="per">/user/month</span>
+                    </div>
+                    <a href="./Pages/error.html" class="cta-button" data-aos="zoom-in" data-aos-delay="200">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="team-section" data-aos="fade-up">
+    <div class="team-wrapper">
+        <div class="section-top">
+            <span class="badge-label" data-aos="fade-down" data-aos-delay="100">#1 Enterprise Partner</span>
+            <h2 class="main-heading" data-aos="fade-down" data-aos-delay="200">Meet Our Leadership</h2>
+            <p class="section-text" data-aos="fade-down" data-aos-delay="300">
+                20+ years of Fortune 500 experience driving digital transformation for global enterprises
+            </p>
+        </div>
+
+        <div class="team-grid">
+            <!-- Team Member 1 -->
+            <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="team-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-image">
+                        <img src="./Images/p1.webp" alt="Sarah Chen" loading="lazy">
+                        <div class="status-online"></div>
+                    </div>
+                </div>
+                <h3 class="team-name">Sarah Chen</h3>
+                <p class="team-role">CEO & Founder</p>
+                <p class="team-bio">
+                    15+ years leading enterprise software companies. Previously VP at Salesforce.
+                </p>
+                <div class="team-stats">
+                    <span>500+</span>
+                    <span>Projects Delivered</span>
+                </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="team-card featured" data-aos="fade-up" data-aos-delay="500">
+                <div class="team-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-image featured-avatar">
+                        <img src="./Images/p2.webp" alt="Michael Ortiz" loading="lazy">
+                        <div class="status-online"></div>
+                    </div>
+                </div>
+                <h3 class="team-name">Michael Ortiz</h3>
+                <p class="team-role">CTO</p>
+                <p class="team-bio">
+                    Architected cloud platforms serving 10M+ users. Ex-Amazon engineering lead.
+                </p>
+                <div class="team-stats">
+                    <span>10M+</span>
+                    <span>Users Managed</span>
+                </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="team-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="team-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-image">
+                        <img src="./Images/p4.webp" alt="Priya Sharma" loading="lazy">
+                        <div class="status-online"></div>
+                    </div>
+                </div>
+                <h3 class="team-name">Priya Sharma</h3>
+                <p class="team-role">Head of Sales</p>
+                <p class="team-bio">
+                    Closed $150M+ in enterprise deals. Former Microsoft account executive.
+                </p>
+                <div class="team-stats">
+                    <span>$150M+</span>
+                    <span>Deals Closed</span>
+                </div>
+            </div>
+
+            <!-- Team Member 4 -->
+            <div class="team-card" data-aos="fade-up" data-aos-delay="700">
+                <div class="team-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-image">
+                        <img src="./Images/p5.webp" alt="David Kim" loading="lazy">
+                        <div class="status-online"></div>
+                    </div>
+                </div>
+                <h3 class="team-name">David Kim</h3>
+                <p class="team-role">VP Engineering</p>
+                <p class="team-bio">
+                    Built scalable systems at Google Cloud. Expert in microservices architecture.
+                </p>
+                <div class="team-stats">
+                    <span>50+</span>
+                    <span>Patents</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-cta" data-aos="fade-up" data-aos-delay="900">
+            <a href="./Pages/error.html" class="cta-main">View Full Team</a>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials-section" data-aos="fade-up">
+    <div class="testimonials-wrapper">
+        <div class="section-intro">
+            <span class="badge-highlight" data-aos="fade-down" data-aos-delay="100">Client Success</span>
+            <h2 class="section-main-title" data-aos="fade-down" data-aos-delay="200">What Enterprises Say</h2>
+            <p class="section-description" data-aos="fade-down" data-aos-delay="300">
+                Trusted by Fortune 500 companies and industry leaders worldwide
+            </p>
+        </div>
+
+        <div class="testimonials-container">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="testimonial-header">
+                    <img src="./Images/ceo1.webp" 
+                         alt="John Carter" class="client-avatar" loading="lazy">
+                    <div class="client-info">
+                        <h4 class="client-name">John Carter</h4>
+                        <p class="client-title">CTO, FinTech Corp</p>
+                    </div>
+                    <div class="rating">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Transformed our entire enterprise stack. ROI in first quarter. 
+                    Best platform we've implemented in 15 years."
+                </p>
+                <div class="testimonial-results">
+                    <span class="result-item">+340% Pipeline Growth</span>
+                    <span class="result-item">3x Faster Deployments</span>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card featured" data-aos="fade-up" data-aos-delay="500">
+                <div class="testimonial-header">
+                    <img src="./Images/p3.webp" 
+                         alt="Maria Lopez" class="client-avatar" loading="lazy">
+                    <div class="client-info">
+                        <h4 class="client-name">Maria Lopez</h4>
+                        <p class="client-title">VP Operations, HealthCorp</p>
+                    </div>
+                    <div class="rating">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Enterprise-grade reliability at startup speed. Reduced our 
+                    operational costs by 47% while scaling to 50K users."
+                </p>
+                <div class="testimonial-results">
+                    <span class="result-item">-47% OpEx Reduction</span>
+                    <span class="result-item">50K Users Scaled</span>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="testimonial-header">
+                    <img src="./Images/ceo3.webp" 
+                         alt="David Kim" class="client-avatar" loading="lazy">
+                    <div class="client-info">
+                        <h4 class="client-name">David Kim</h4>
+                        <p class="client-title">CIO, Global Logistics</p>
+                    </div>
+                    <div class="rating">
+                        <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                    </div>
+                </div>
+                <p class="testimonial-text">
+                    "Zero downtime during Black Friday peak. Handled 2M transactions 
+                    per minute without breaking a sweat."
+                </p>
+                <div class="testimonial-results">
+                    <span class="result-item">2M Transactions/min</span>
+                    <span class="result-item">0% Downtime</span>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+<section class="cta-section" data-aos="fade-up">
+    <div class="cta-wrapper">
+        <div class="cta-content">
+            <span class="cta-badge" data-aos="fade-up" data-aos-delay="100">Ready to Transform?</span>
+            <h2 class="cta-title" data-aos="fade-up" data-aos-delay="200">
+                Start Your Enterprise <span class="gradient-highlight">Free Trial</span>
+            </h2>
+            <p class="cta-description" data-aos="fade-up" data-aos-delay="300">
+                No credit card required. Cancel anytime. See 340% average ROI in first 90 days.
+            </p>
+            
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="./Pages/error.html" class="btn-primary large" data-aos="zoom-in" data-aos-delay="500">
+                    Start Free Trial
+                </a>
+                <a href="./Pages/error.html" class="btn-secondary large" data-aos="zoom-in" data-aos-delay="600">
+                    Request Demo
+                </a>
+            </div>
+
+            <div class="cta-trust" data-aos="fade-up" data-aos-delay="700">
+                <div class="trust-item">
+                    <div class="trust-icon">🔒</div>
+                    <span>14-day money back guarantee</span>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">⚡</div>
+                    <span>Deploy in under 2 hours</span>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">🛡️</div>
+                    <span>Enterprise-grade security</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Static Image Instead of Mockup -->
+        <div class="cta-visual" data-aos="fade-left" data-aos-delay="300">
+            <img src="./Images/h4.webp" 
+                 alt="Enterprise Analytics Dashboard" 
+                 class="cta-image"
+                 loading="lazy">
+        </div>
+    </div>
+</section>
+
+
+
+<section class="faq-section" data-aos="fade-up">
+    <div class="faq-wrapper">
+        <div class="faq-header">
+            <span class="faq-badge" data-aos="fade-down" data-aos-delay="100">Get Answers Fast</span>
+            <h2 class="faq-title" data-aos="fade-down" data-aos-delay="200">Frequently Asked Questions</h2>
+            <p class="faq-subtitle" data-aos="fade-down" data-aos-delay="300">
+                Everything you need to know before transforming your enterprise
+            </p>
+        </div>
+
+        <div class="faq-container">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item" data-aos="fade-right" data-aos-delay="400">
+                <div class="faq-question">
+                    <h3>How quickly can we deploy across 10,000 users?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Full deployment in <strong>under 2 hours</strong> with zero downtime. Our auto-scaling 
+                    infrastructure handles 10K→100K user growth automatically. 99.99% uptime SLA guaranteed.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="faq-item" data-aos="fade-right" data-aos-delay="500">
+                <div class="faq-question">
+                    <h3>What compliance standards do you support?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>ISO 27001, SOC 2 Type II, GDPR, HIPAA, PCI-DSS</strong> certified. Enterprise-grade 
+                    encryption at rest and in transit. Annual third-party security audits available.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="faq-item" data-aos="fade-right" data-aos-delay="600">
+                <div class="faq-question">
+                    <h3>Can we integrate with our existing stack?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p><strong>500+ native integrations</strong> including Salesforce, SAP, Oracle, Workday, 
+                    ServiceNow. Custom API development available for proprietary systems.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="faq-item" data-aos="fade-right" data-aos-delay="700">
+                <div class="faq-question">
+                    <h3>What happens if we outgrow the platform?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Seamless migration path to our <strong>Enterprise plan</strong> with dedicated architects. 
+                    Zero data lock-in - export everything in CSV/API. Average customers scale 10x without migration.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="faq-item" data-aos="fade-right" data-aos-delay="800">
+                <div class="faq-question">
+                    <h3>Do you offer dedicated support?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Enterprise plan includes <strong>24/7 dedicated account manager</strong>, 15-minute SLA response 
+                    times, and quarterly business reviews. 98% of tickets resolved on first contact.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq-cta" data-aos="fade-up" data-aos-delay="900">
+            <p>Still have questions?</p>
+            <a href="./Pages/error.html" class="cta-button2 primary">Contact Sales</a>
+        </div>
+    </div>
+</section>
+
+
+    <section class="connect-section" data-aos="fade-up">
+    <div class="connect-container">
+     
+        <div class="hero-block" data-aos="fade-up" data-aos-delay="100">
+            <div class="hero-badge">Enterprise Sales</div>
+            <h1 class="hero-title">Schedule Your <span>Discovery Call</span></h1>
+            <p class="hero-text">30 minutes. No commitment. See how we transform enterprises.</p>
+        </div>
+
+        
+        <form class="connect-form" id="enterprise-form" data-aos="fade-up" data-aos-delay="200">
+            <div class="input-group">
+                <input type="text" name="name" placeholder=" " required>
+                <label>Full Name *</label>
+                <span class="error-message" id="name-error"></span>
+            </div>
+            
+            <div class="input-group">
+                <input type="email" name="email" placeholder=" " required>
+                <label>Work Email *</label>
+                <span class="error-message" id="email-error"></span>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" name="company" placeholder=" " required>
+                <label>Company Name *</label>
+                <span class="error-message" id="company-error"></span>
+            </div>
+            
+            <div class="input-group full">
+                <textarea name="message" rows="4" placeholder=" " required></textarea>
+                <label>Tell us your needs *</label>
+                <span class="error-message" id="message-error"></span>
+            </div>
+            
+            <button type="submit" class="submit-btn">
+                <span>Send Request</span>
+                <div class="btn-loader"></div>
+            </button>
+        </form>
+
+        <!-- Contact Cards -->
+        <div class="contact-cards" data-aos="fade-up" data-aos-delay="300">
+            <div class="contact-card">
+                <div class="card-icon">📞</div>
+                <div class="card-content">
+                    <h4>+91 78922 33422</h4>
+                    <p>Mon-Fri 9AM-6PM EST</p>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="card-icon">✉️</div>
+                <div class="card-content">
+                    <h4>sales@stackly.com</h4>
+                    <p>Enterprise Sales Team</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="elite-footer" data-aos="fade-up">
+    <div class="footer-grid">
+        <!-- Stackly Column -->
+        <div class="footer-brand">
+            <h3 class="brand-logo">Stackly</h3>
+            <p class="brand-text">Stackly developing personalze our customer journeys to increase satisfaction & loyalty of our expansion.</p>
+        </div>
+
+        <!-- Useful Links -->
+        <div class="footer-block">
+            <h4 class="block-title">Useful Links</h4>
+            <ul class="nav-list">
+                <li><a href="./Pages/error.html">About</a></li>
+                <li><a href="./Pages/error.html">Service</a></li>
+                <li><a href="./Pages/error.html">Blog</a></li>
+                <li><a href="./Pages/error.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Visit Us -->
+        <div class="footer-block">
+            <h4 class="block-title">Visit Us</h4>
+            <div class="contact-details">
+                <a class="contact-link">hello@stackly.com</a>
+                <a  class="contact-link">+91 79123 45678</a>
+            </div>
+        </div>
+
+        <!-- Location with Map -->
+        <div class="footer-block map-section">
+            <h4 class="block-title">Location</h4>
+            <div class="map-container">
+                <iframe
+                class="map1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.1616097152896!2d78.1739798!3d11.682956599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babefef7fd970bb%3A0xe11aef1a71994f9!2sStackly!5e0!3m2!1sen!2sin!4v1757488188623!5m2!1sen!2sin"
+                width="100%"
+                height="150"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+                <div class="address-text">
+                    <p>Chinna thirupathi<br>Salem, 680001</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bar">
+        <div class="bar-content">
+            <span class="rights-text">© 2025 Stackly. All rights reserved.</span>
+            <div class="social-icons">
+                <a href="./Pages/error.html" class="icon-fb" aria-label="Facebook" title="Facebook">f</a>
+                <a href="./Pages/error.html" class="icon-twitter" aria-label="Twitter" title="Twitter">𝕏</a>
+                <a href="./Pages/error.html" class="icon-linkedin" aria-label="LinkedIn" title="LinkedIn">in</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+
+<script>
+    document.getElementById('enterprise-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Clear previous errors
+    document.querySelectorAll('.error-message').forEach(el => el.classList.remove('show'));
+    
+    // Get form data
+    const formData = new FormData(this);
+    const name = formData.get('name').trim();
+    const email = formData.get('email').trim();
+    const company = formData.get('company').trim();
+    const message = formData.get('message').trim();
+    
+    // Validation
+    let isValid = true;
+    
+    // Name: Alphabets only + minimum 2 chars
+    if (!name || name.length < 2 || !/^[a-zA-Z\s]+$/.test(name)) {
+        document.getElementById('name-error').textContent = 'Name must contain only alphabets (min 2 chars)';
+        document.getElementById('name-error').classList.add('show');
+        isValid = false;
+    }
+    
+    // Email validation
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        document.getElementById('email-error').textContent = 'Please enter a valid email';
+        document.getElementById('email-error').classList.add('show');
+        isValid = false;
+    }
+    
+    // Company validation
+    if (!company || company.length < 2) {
+        document.getElementById('company-error').textContent = 'Company name required (min 2 chars)';
+        document.getElementById('company-error').classList.add('show');
+        isValid = false;
+    }
+    
+    // Message validation
+    if (!message || message.length < 10) {
+        document.getElementById('message-error').textContent = 'Message must be at least 10 characters';
+        document.getElementById('message-error').classList.add('show');
+        isValid = false;
+    }
+    
+    // If valid, redirect to error page
+    if (isValid) {
+        const submitBtn = this.querySelector('.submit-btn');
+        submitBtn.classList.add('loading');
+        
+        setTimeout(() => {
+            window.location.href = './Pages/error.html';
+        }, 1500);
+    }
+});
+
+// Real-time name validation (prevents numbers)
+document.querySelector('input[name="name"]').addEventListener('input', function(e) {
+    // Allow only alphabets, spaces, backspace, delete
+    this.value = this.value.replace(/[^a-zA-Z\s]/g, '');
+});
+
+</script>
+
+<script>
+    // FAQ Accordion
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+        const faqItem = question.parentElement;
+        const isActive = faqItem.classList.contains('active');
+        
+        // Close all FAQs
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.classList.remove('active');
+        });
+        
+        // Open clicked FAQ if not already active
+        if (!isActive) {
+            faqItem.classList.add('active');
+        }
+    });
+});
+
+</script>
+    <script>
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.background = 'rgba(10, 10, 10, 0.98)';
+                navbar.style.backdropFilter = 'saturate(180%) blur(30px)';
+            } else {
+                navbar.style.background = 'rgba(15, 15, 15, 0.95)';
+                navbar.style.backdropFilter = 'saturate(180%) blur(20px)';
+            }
+        });
+    </script>
+        <script>
+      AOS.init({
+        duration: 800,
+        once: false,
+        mirror: true,
+        offset: 100,
+      });
+    </script>
+    <script>
+window.addEventListener("load", function () {
+  const loader = document.getElementById("loader");
+
+
+  setTimeout(() => {
+    loader.style.opacity = "0";
+    loader.style.pointerEvents = "none";
+
+    setTimeout(() => {
+      loader.style.display = "none";
+    }, 500);
+
+  }, 1000);
+});
+</script>
+
+
+</body>
+</html>
