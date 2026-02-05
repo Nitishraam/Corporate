@@ -14,8 +14,8 @@ body {
     BlinkMacSystemFont,
     sans-serif;
   line-height: 1.6;
-  background: #0a0a0a;
-  color: white;
+  /* background: #0a0a0a; */
+  /* color: white; */
   padding-top: 90px;
 }
 
@@ -231,7 +231,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, #0f0f23 0%, #1a0d2e 40%, #0a0a0a 100%);
+    background: linear-gradient(135deg, #0f0f23 0%, #0053a7 40%, #570578 100%);
     z-index: 1;
 }
 
@@ -304,6 +304,7 @@ body {
 
 .hero-h1 span {
     display: block;
+    color: lightblue;
 }
 
 .gradient-text {
@@ -419,10 +420,10 @@ body {
 }
 
 .hero-image {
-    width: 100%;
+    width: 70%;
     max-width: 480px;
-    height: 600px;
-    object-fit: cover;
+    height: 450px;
+    /* object-fit: cover; */
     border-radius: 32px;
     box-shadow: 
         0 50px 100px rgba(0,0,0,0.6),
@@ -514,7 +515,7 @@ body {
 .solutions-section {
     padding: 80px 0 100px;
     position: relative;
-    background: linear-gradient(135deg, #0f0f23 0%, #1a0d2e 50%, #0a0a0a 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 50%, #daebea 100%);
 }
 
 .solutions-section::before {
@@ -550,7 +551,7 @@ body {
 .section-title {
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 900;
-    background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+    background: linear-gradient(135deg, #ba62ed 0%, #4f0481 100%);
     background-clip: text;
     color: transparent;
     margin-bottom: 1rem;
@@ -559,19 +560,19 @@ body {
 
 .section-subtitle {
     font-size: 1.25rem;
-    color: rgba(255,255,255,0.8);
+    color:  rgba(80, 165, 244, 0.8);
     max-width: 600px;
     margin: 0 auto;
 }
 
 .solutions-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     gap: 2rem;
 }
 
 .solution-card {
-    background: rgba(20, 20, 20, 0.7);
+    background: rgba(0, 0, 0, 0.945);
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 24px;
@@ -755,7 +756,7 @@ body {
 
 .team-section {
     padding: 80px 0 120px;
-    background: linear-gradient(135deg, #0f0f23 0%, #1a0d2e 50%, #0a0a0a 100%);
+    background: linear-gradient(135deg, #cce7eb 0%, #ffffff 50%, #ffffff 100%);
     position: relative;
     overflow: hidden;
 }
@@ -763,7 +764,7 @@ body {
 .team-section::before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 0; 
     left: 0;
     right: 0;
     height: 1px;
@@ -796,7 +797,7 @@ body {
 .main-heading {
     font-size: clamp(2.8rem, 6vw, 4.2rem);
     font-weight: 900;
-    background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+    background: linear-gradient(135deg, #ba62ed 0%, #4f0481 100%);
     background-clip: text;
     color: transparent;
     margin-bottom: 1.5rem;
@@ -805,7 +806,7 @@ body {
 
 .section-text {
     font-size: 1.25rem;
-    color: rgba(255,255,255,0.8);
+    color: rgba(80, 165, 244, 0.8);
     max-width: 600px;
     margin: 0 auto;
 }
@@ -818,7 +819,7 @@ body {
 }
 
 .team-card {
-    background: rgba(20, 20, 20, 0.7);
+    background: rgba(20, 20, 20, 0.932);
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 28px;
@@ -896,7 +897,7 @@ body {
 .avatar-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     display: block;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -1156,10 +1157,10 @@ body {
 }
 
 .client-avatar {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    object-fit: cover;
+    /* object-fit: cover; */
     flex-shrink: 0;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
@@ -1267,7 +1268,7 @@ body {
 
 .cta-section {
     padding: 80px 0 80px;
-    background: linear-gradient(135deg, #1a0d2e 0%, #0f0f23 50%, #0a0a0a 100%);
+    background: linear-gradient(135deg, #feffff 0%, #ebf4f6 50%, #ffffff 100%);
     position: relative;
     overflow: hidden;
 }
@@ -1315,7 +1316,7 @@ body {
     font-weight: 900;
     line-height: 1.1;
     margin-bottom: 2rem;
-    color: white;
+    color: #9541e8;
 }
 
 .gradient-highlight {
@@ -1327,7 +1328,7 @@ body {
 
 .cta-description {
     font-size: 1.3rem;
-    color: rgba(255,255,255,0.85);
+    color: rgb(30 131 215 / 85%);
     margin-bottom: 3rem;
     line-height: 1.7;
     max-width: 500px;
@@ -1382,8 +1383,8 @@ body {
 }
 
 .btn-secondary.large {
-    color: white;
-    border: 2px solid rgba(255,255,255,0.3);
+    color: rgb(33, 145, 225);
+    border: 2px solid rgba(19, 68, 216, 0.3);
     background: rgba(255,255,255,0.05);
 }
 
@@ -1403,7 +1404,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
-    color: rgba(255,255,255,0.8);
+    color: rgba(42, 147, 199, 0.8);
     font-size: 0.95rem;
 }
 
@@ -1431,7 +1432,7 @@ body {
     width: 100%;
     max-width: 520px;
     height: 420px;
-    object-fit: cover;
+    /* object-fit: cover; */
     border-radius: 28px;
     box-shadow: 
         0 40px 100px rgba(0,0,0,0.7),
@@ -1496,7 +1497,7 @@ body {
 
 .faq-section {
     padding: 80px 0 80px;
-    background: linear-gradient(135deg, #0f0f23 0%, #1a0d2e 50%, #0a0a0a 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 50%, #c7d6da 100%);
     position: relative;
     overflow: hidden;
 }
@@ -1538,7 +1539,7 @@ body {
 .faq-title {
     font-size: clamp(2.8rem, 6vw, 4.2rem);
     font-weight: 900;
-    background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+    background: linear-gradient(135deg, #af5fdd 0%, #670b99 100%);
     background-clip: text;
     color: transparent;
     margin-bottom: 1.5rem;
@@ -1704,7 +1705,7 @@ body {
 
 .connect-section {
     padding: 80px 0;
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a0d2e 50%, #0f0f23 100%);
+    background: linear-gradient(135deg, #deeef5 0%, #e9f2f7 50%, #fcfcfd 100%);
     position: relative;
 }
 
@@ -1746,20 +1747,20 @@ body {
     font-weight: 900;
     line-height: 1.1;
     margin-bottom: 1.5rem;
-    background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
+    background: linear-gradient(135deg, #b45dee 0%, #ac05e9 100%);
     background-clip: text;
     color: transparent;
 }
 
 .hero-title span {
-    background: linear-gradient(135deg, #00d4ff, #5b86e5);
+    background: linear-gradient(135deg, #d400ff, #b95be5);
     background-clip: text;
     color: transparent;
 }
 
 .hero-text {
     font-size: 1.4rem;
-    color: rgba(255,255,255,0.85);
+    color: rgba(71, 169, 234, 0.85);
     max-width: 500px;
     margin: 0 auto;
     line-height: 1.6;
@@ -1918,7 +1919,7 @@ body {
     align-items: center;
     gap: 1.5rem;
     padding: 1.5rem 2rem;
-    background: rgba(20,20,20,0.5);
+    background: rgba(20, 20, 20, 0.925);
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255,255,255,0.1);
     border-radius: 20px;
